@@ -8,7 +8,8 @@
             <div class="hero-content">
                 <h1>LUCE TU MEJOR ESTILO</h1>
                 <p>Reserva ahora y transforma tu apariencia con nuestros expertos</p>
-                <button class="hero-button">Reserva Ahora</button>
+                <button class="hero-button" @click="getLocation()">Nos Ubicamos</button>
+            
             </div>
         </section>
 
@@ -87,6 +88,13 @@ export default {
             
         };
     },
+    methods: {
+        getLocation() {
+            alert('Nos ubicamos en la Calle Principal, Ciudad');
+        window.location.href = 'https://www.google.com/maps/place/13%C2%B031\'32.5%22S+71%C2%B057\'05.6%22W/@-13.525688,-71.9522007,19z/data=!3m1!4b1!4m12!1m7!3m6!1s0x916e7f550a5f8669:0x7cf6c40684069145!2sReal+Plaza+Cusco!8m2!3d-13.5239432!4d-71.9504727!16s%2Fg%2F1q5bmcssy!3m3!8m2!3d-13.525688!4d-71.951557?entry=ttu&g_ep=EgoyMDI0MTExMi4wIKXMDSoASAFQAw%3D%3D';
+        },
+    },
+
 };
 </script>
 

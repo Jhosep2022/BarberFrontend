@@ -2,7 +2,7 @@
     <header class="navbar">
         <div class="navbar-container">
             <!-- Logo -->
-            <a href="/home" class="navbar-logo">Barbershop</a>
+            <a href="/home" class="navbar-logo">LIMA99</a>
             
             <!-- Navigation Links -->
             <nav>
